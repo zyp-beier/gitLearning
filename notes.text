@@ -1,0 +1,4 @@
+git add 添加到暂存区
+git commit -m "备注" 添加到本地库
+git log 查看日志
+
