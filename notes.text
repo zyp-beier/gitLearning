@@ -1,0 +1,12 @@
+git add 添加到暂存区
+git commit -m "备注" 添加到本地库
+//////////////////////////////
+git log 查看日志
+git log --pretty=oneline 查看日志（显示在一行）
+git log --oneline 查看日志(显示在一行，哈希值不全)
+git reflog 查看日志，有head@{1}到某一个版本需要移动几步
+///////////版本回退(移动指针)///////////////
+reset
+
+1.基于索引  git reset --hard [hash值]
+2.基于^符号 git reset --hard HEAD^  或者 git reset --hard HEAD～3
